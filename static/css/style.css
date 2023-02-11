@@ -157,7 +157,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #959695ee;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -166,13 +166,13 @@ p {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #ffffff;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #c6b398;
-  color: #fff;
+  background: #11f342d8;
+  color: #ffffff;
 }
 
 .back-to-top.active {
@@ -563,7 +563,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #000000;
 }
 
 #about .div-img-bg .about-img img {
@@ -616,7 +616,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #000000;
   line-height: 44px;
 }
 
@@ -1082,7 +1082,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f7f7;
+  background: #000000;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1105,7 +1105,7 @@ blockquote {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: #ffffff;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
@@ -1114,7 +1114,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #ffffff;
   transition: all 0.5s ease-in-out 0s;
 }
 
