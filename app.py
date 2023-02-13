@@ -9,9 +9,12 @@ def home_page():
     return render_template('./index.html')
 
 
-@app.route("/<string:page_name>")
+@app.route("/<string:page_name>", methods=['POST','GET'])
 def html_page(page_name):
-    return render_template(page_name)
+    if request.method == 'POST':
+        return render_template(form=form)
+    else:
+        return render_template(page_name)
 
 # # Code to save contact form information to csv then later database
 # def contacts_to_csv(data):
