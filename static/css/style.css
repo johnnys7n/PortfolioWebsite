@@ -171,7 +171,7 @@ p {
 }
 
 .back-to-top:hover {
-  background: #11f342d8;
+  background: #b8a07e;
   color: #ffffff;
 }
 
@@ -630,11 +630,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #000000;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
