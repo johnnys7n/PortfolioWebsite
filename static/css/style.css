@@ -264,7 +264,7 @@ p {
   font-size: 14px;
   font-weight: 500;
   color: #7e7d7d;
-  white-space: nowrap;
+  white-space: wrap;
   transition: 0.3s;
 }
 
