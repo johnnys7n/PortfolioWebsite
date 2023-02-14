@@ -727,7 +727,18 @@ p {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cab89f;
+  color: #00fb08;
+}
+#portfolio .portfolio-item .portfolio-info .preview-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-txt-link {
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #b8a07e;
+}
+
+#portfolio .portfolio-item .portfolio-info .preview-txt-link:hover,
+#portfolio .portfolio-item .portfolio-info .details-txt-link:hover {
+  color: #00fb08;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {
