@@ -39,37 +39,36 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo"><img src="./static/img/favicon.ico" alt="" class="img-fluid"></a>
       <!-- Uncomment below if you prefer to use an text logo -->
-      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+      <h1 class="logo-text"><a href="index.html">by Johnny Sin</a></h1>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about-me.html">About</a></li>
+          <li><a class="nav-link  scrollto" href="index.html##portfolio">Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Current Projects</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Machine Learning Tools</span> <i
                     class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Traffic Sign Classification</a></li>
-                  <li><a href="#">Dog Breed Identification App</a></li>
+                  <li><a href="datascienceworkflow.html">Data Science Case Study</a></li>
+                  <li><a href="proteinanalysis.html">Predictive Protein Analysis</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Computer Vision Applications</span> <i
                     class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="https://github.com/johnnys7n/DetectingBrainWhiteMatterChanges" target="_blank">White
-                      Matter Detection</a></li>
+                  <li><a href="whitematterdetection.html" target="_blank">Multiclass Brain Detection</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -142,7 +141,7 @@
               <div class="services-block">
                 <i class="bi bi-android"></i>
                 <span>Data Science and Machine Learning</span>
-                <p class="separator">Python | NumPy, Pandas, Scikit-Learn, Matplotlib, Tensorflow, OpenCV<br>R | Knitr,
+                <p class="separator">Python | NumPy, Pandas, Scikit-Learn, Matplotlib, SciPy, Tensorflow, OpenCV<br>R | Knitr,
                   Plotly, Dplyr, Tidyverse, Bioinformatics</p>
               </div>
             </div><!-- End testimonial item -->
@@ -150,7 +149,7 @@
             <div class="swiper-slide">
               <div class="services-block">
                 <i class="bi bi-bar-chart"></i>
-                <span>Dashboards and Web Dev</span>
+                <span>Dashboard and Visualization</span>
                 <p class="separator">Tableau<br>Looker<br>R/Python | Shiny, Django, Flask</p>
               </div>
             </div><!-- End testimonial item -->
@@ -203,25 +202,36 @@
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-cv">Computer-Vision</li>
-              <li data-filter=".filter-ml">Machine Learning</li>
+              <li data-filter=".filter-sml">Supervised Machine Learning</li>
+              <li data-filter=".filter-unsml">Unsupervised Machine Learning</li>
+              <li data-filter=".filter-dl">Deep Learning</li>
               <li data-filter=".filter-an">Analytics</li>
-              <li data-filter=".filter-gd">Graphic Design</li>
               <li data-filter=".filter-py">Python</li>
               <li data-filter=".filter-rp">R-Programming</li>
-              <li data-filter=".filter-sql">SQL</li>
+              <li data-filter=".filter-gd">Graphic Design</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="text-center col-lg-4 col-md-6 portfolio-item filter-cv filter-ml filter-py">
+          <div class="text-center col-lg-4 col-md-6 portfolio-item filter-dl filter-cv filter-sml filter-py">
             <img src="./static/img/portfolio/ihc_brain.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>White Matter Change Detection</h4>
               <p><a href="whitematterdetection.html" class="details-txt-link" target="_blank"><i
                     class="bx bx-power-off"></i></a></p>
               <!-- <a href="whitematterdetection.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+            </div>
+          </div>
+          
+          <div class="text-center col-lg-4 col-md-6 portfolio-item filter-sml filter-unsml filter-py">
+            <img src="./static/img/portfolio/proteinanalysis.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Predicting Age with Protein Analysis<br>Detection</h4>
+              <p><a href="proteinanalysis.html" class="details-txt-link" target="_blank"><i
+                class="bx bx-power-off"></i></a></p>
+              <!-- <a href="#" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
             </div>
           </div>
 
@@ -236,31 +246,21 @@
           </div>
 
           <div class="text-center col-lg-4 col-md-6 portfolio-item filter-py filter-ml filter-an">
-            <img src="./static/img/portfolio/machine_learning.jpeg" class="img-fluid" alt="">
+            <img src="./static/img/portfolio/strokeprediction.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Machine Learning<br>Projects</h4>
-              <p><a href="machinelearningprojects.html" class="details-txt-link" target="_blank"><i
-                    class="bx bx-power-off"></i></a></p>
-              <!-- <a href="machinelearningprojects.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="text-center col-lg-4 col-md-6 portfolio-item filter-rp filter-sql filter-an">
-            <img src="./static/img/portfolio/bellabeat.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>BellaBeat Fitness<br>Tracker Data Report</h4>
-              <p><a href="bellabeatreport.html" class="details-txt-link" target="_blank"><i
+              <h4>Data Science Case Study<br>Data Report</h4>
+              <p><a href="datascienceworkflow.html" class="details-txt-link" target="_blank"><i
                     class="bx bx-power-off"></i></a></p>
               <!-- <a href="bellabeatreport.html" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
             </div>
           </div>
 
-          <div class="text-center col-lg-4 col-md-6 portfolio-item filter-ml filter-cv">
-            <img src="./static/img/portfolio/dog_breed.jpeg" class="img-fluid" alt="">
+          <div class="text-center col-lg-4 col-md-6 portfolio-item filter-rp filter-an">
+            <img src="./static/img/portfolio/bellabeat.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Dog Breed<br>Detection</h4>
-              <p>Coming Soon</p>
-              <!-- <a href="#" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              <h4>Bellabeat Fitness Business Analysis<br>Projects</h4>
+              <p><a href="bellabeatreport.html" class="details-txt-link" target="_blank"><i
+                    class="bx bx-power-off"></i></a></p>
             </div>
           </div>
 
