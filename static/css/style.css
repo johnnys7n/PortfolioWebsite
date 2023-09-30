@@ -1008,6 +1008,14 @@ p {
   font-weight: bold;
   color: #009879;
 }
+.styled-table tbody tr.inactive-row {
+  font-weight: bold;
+  color: #f777b9;
+}
+.styled-table tbody tr.lectures-row {
+  font-weight: bold;
+  color: #747474;
+}
 
 
 /*--------------------------------------------------------------
