@@ -48,8 +48,11 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="about-me.html">About</a></li>
-          <li><a class="nav-link  scrollto" href="index.html##portfolio">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about-me.html">About Me Page</a></li>
+              <li><a href="my-courses.html">Relevant Courses</a></li>
+            </ul>          <li><a class="nav-link  scrollto" href="index.html##portfolio">Portfolio</a></li>
           <li class="dropdown"><a href="#"><span>Current Projects</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Machine Learning Tools</span> <i
@@ -118,7 +121,6 @@
               <h3>Statistical Tool</h3>
               <ul>
                 <li><strong>Category</strong>: R-Programming</li>
-                <li><strong>Client</strong>: Alkahest, Inc.</li>
                 <li><strong>Project date</strong>: 06 January, 2022</li>
                 <li><strong>Project URL</strong>: <a href="https://github.com/johnnys7n/StatisticalTool"
                     target="'_blank">Github Repo</a></li>
@@ -127,11 +129,9 @@
             <div class="portfolio-description">
               <h2>Introduction</h2>
               <p>
-                This tool is deployed on company's Jira Cloud, but link to a public-friendly app code is provided.
-                <br>I created this tool in order to quickly structure the analytical pipeline and
-                make it easier to not only understand the disease model that we use, in terms of
-                the physiological readouts, but also model the disease itself using the information
-                that is generated from this Shiny app.
+                Analysis in research is often conducted using software programs such as Prism, Excel, etc. and to make 
+                a quicker/intuitive statistical testing for structural data, I created this tool in R Shiny.
+                This tool is always evolving and new features/statistical tests are constantly being added! 
               </p>
             </div>
           </div>
