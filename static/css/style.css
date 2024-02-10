@@ -974,6 +974,7 @@ p {
 # Courses
 --------------------------------------------------------------*/
 .styled-table {
+  background-color: #fff;
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
@@ -983,7 +984,7 @@ p {
 }
 
 .styled-table thead tr {
-  background-color: #535353;
+  background-color: #d9ab50;
   color: #ffffff;
   text-align: left;
 }
@@ -998,7 +999,7 @@ p {
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #cecece;
 }
 
 .styled-table tbody tr:last-of-type {
