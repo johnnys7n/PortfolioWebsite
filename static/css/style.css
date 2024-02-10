@@ -863,7 +863,7 @@ p {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #ffffff;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1158,7 +1158,7 @@ blockquote {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #000000;
+  background: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
