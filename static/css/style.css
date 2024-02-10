@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #000000;
-  color: #c1c1c1;
+  color: #000000;
   font-family: "Poppins", helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -612,7 +612,7 @@ p {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #ededed;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -627,7 +627,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #000000;
+  color: #cbcbcb;
   line-height: 44px;
 }
 
@@ -641,11 +641,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #000000;
+  border: 1px solid #878787;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 /*--------------------------------------------------------------
