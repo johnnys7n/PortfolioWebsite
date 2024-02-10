@@ -124,6 +124,7 @@ p {
 .paddsection {
   padding-top: 90px;
   padding-bottom: 90px;
+  background: #000000
 }
 
 .paddsections {
@@ -602,7 +603,7 @@ p {
 # Services
 --------------------------------------------------------------*/
 #services {
-  background: #f7f7f7;
+  background: #000000;
   position: relative;
   padding-bottom: 80px;
 }
@@ -1035,7 +1036,7 @@ p {
 
 /* main content */
 .main-content {
-  background: #f7f7f7;
+  background: #000000;
 }
 
 .main-content .container-main {
